@@ -1,8 +1,5 @@
 
 
-spring:
-  application:
-    name: CONFIG-SERVICE
 eureka:
   instance:
     prefer-pi-address: true
