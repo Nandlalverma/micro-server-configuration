@@ -1,8 +1,5 @@
 
 
-spring:
-  application:
-    name: PROD-SERVICE
 eureka:
   instance:
     prefer-pi-address: true
