@@ -1,1 +1,13 @@
 
+
+spring:
+  application:
+    name: PROD-SERVICE
+eureka:
+  instance:
+    prefer-pi-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
